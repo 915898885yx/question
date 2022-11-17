@@ -9,5 +9,5 @@
 * A通过router-link跳转到B，通过浏览器的退回返回到A
 * A页面的初始化方法不执行（onMounted）或者setup下发起的接口请求
 * 解决办法：将router-link跳转替换为router.push跳转
-#### 3.ie浏览器不显示chrome、edge、firefox的png图片。
+#### 3.ie浏览器不显示chrome、edge、firefox的logo的png图片。
 * 解决办法：ui通过微调图片的颜色，看起来没什么变法，但是可以正常显示。
