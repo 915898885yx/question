@@ -13,7 +13,7 @@
 * 解决办法：ui通过微调图片的颜色，看起来没什么变法，但是可以正常显示。
 #### 4.js读取二进制数据
 * [链接](https://juejin.cn/post/6844903672678203405)
-1.
+* 1.
 Blob API 用于处理二进制数据，可以方便地将数据转换为Blob对象或从Blob对象读取数据。
 
 // 创建一个Blob对象
@@ -25,7 +25,7 @@ reader.addEventListener("loadend", () => {
 });
 reader.readAsText(myBlob);
 使用场景：在Web应用中，可能需要上传或下载二进制文件，使用Blob API可以方便地处理这些数据。
-2.
+* 2.
 TextEncoder 和 TextDecoder 用于处理字符串和字节序列之间的转换。它们可以方便地将字符串编码为字节序列或将字节序列解码为字符串。
 
 const encoder = new TextEncoder();
