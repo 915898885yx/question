@@ -25,6 +25,7 @@ reader.addEventListener("loadend", () => {
 });
 reader.readAsText(myBlob);
 使用场景：在Web应用中，可能需要上传或下载二进制文件，使用Blob API可以方便地处理这些数据。
+```
 * 2.
 * TextEncoder 和 TextDecoder 用于处理字符串和字节序列之间的转换。它们可以方便地将字符串编码为字节序列或将字节序列解码为字符串。
 ```javascript
@@ -36,3 +37,4 @@ console.log(myBuffer); // Uint8Array(13) [72, 101, 108, 108, 111, 44, 32, 119, 1
 const decodedString = decoder.decode(myBuffer);
 console.log(decodedString); // "Hello, world!"
 使用场景：在Web应用中，可能需要将字符串转换为二进制数据，或将二进制数据转换为字符串。使用TextEncoder和TextDecoder可以方便地进行这些转换。
+```
